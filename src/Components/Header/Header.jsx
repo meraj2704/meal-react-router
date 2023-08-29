@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div>
-            <nav className='flex gap-4 text-xl md:text-3xl text-bold text-white bg-yellow-950 py-4 px-2'>
+            <nav className='flex gap-4 text-xl md:text-3xl font-bold text-white bg-yellow-950 py-4 px-2'>
                 <li className='list-none'>
                     <Link to="/">Home</Link>
                 </li>
